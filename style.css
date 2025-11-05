@@ -85,23 +85,23 @@ li:hover {
 }
 
 #pickles+label::after {
-    content: " (for the next lessons about CSS)";
+    content: attr(title);
 }
 
 #apples+label::after {
-    content: " (for more CSS manipulations)";
+    content: attr(title);
 }
 
 #oranges+label::after {
-    content: " (because they are awesome)";
+    content: attr(title);
 }
 
 #plates+label::after {
-    content: " (hm... they always dissapear)";
+    content: attr(title);
 }
 
 #bentos+label::after {
-    content: " (for the next lessons about CSS)";
+    content: attr(title);
 }
 
 #bottle+label::after {
